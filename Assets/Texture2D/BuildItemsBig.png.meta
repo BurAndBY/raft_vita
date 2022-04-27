@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 04a4030c692ecc64ea9a242745602a67
+timeCreated: 1649264578
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BuildItemsBig_Foundation
+    21300002: BuildItemsBig_Pillar
+    21300004: BuildItemsBig_Ramp
+    21300006: BuildItemsBig_Floor
+    21300008: BuildItemsBig_WallWindow
+    21300010: BuildItemsBig_Wall
+    21300012: BuildItemsBig_Repair
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 640
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: PSP2
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BuildItemsBig_Foundation
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186.07613
+        width: 160
+        height: 105.867516
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5093524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -53.00989}
+        - {x: -80, y: -19.009888}
+        - {x: -80, y: 23.990112}
+        - {x: -10, y: 52.990112}
+        - {x: 36, y: 52.990112}
+        - {x: 80, y: 23.990112}
+        - {x: 80, y: -2.0098877}
+        - {x: 73, y: -17.009888}
+        - {x: 24, y: -53.00989}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuildItemsBig_Pillar
+      rect:
+        serializedVersion: 2
+        x: 219.02675
+        y: 186.02675
+        width: 40.89713
+        height: 113.9465
+      alignment: 9
+      pivot: {x: 0.5128294, y: 0.47367185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.475313, y: -57.000004}
+        - {x: -20.475313, y: -54}
+        - {x: -20.475313, y: 53}
+        - {x: -16.475313, y: 57.000004}
+        - {x: 13.524687, y: 57.000004}
+        - {x: 20.524687, y: 55}
+        - {x: 20.524687, y: -12}
+        - {x: 15.524688, y: -52}
+        - {x: 12.524687, y: -57.000004}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuildItemsBig_Ramp
+      rect:
+        serializedVersion: 2
+        x: 16.063898
+        y: 42.076122
+        width: 127.91132
+        height: 89.897125
+      alignment: 9
+      pivot: {x: 0.49984708, y: 0.42185864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.980442, y: -45.024685}
+        - {x: -64.01956, y: -45.024685}
+        - {x: -64.01956, y: 40.975315}
+        - {x: -29.019558, y: 44.975315}
+        - {x: -9.019558, y: 44.975315}
+        - {x: 63.980442, y: -22.024685}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuildItemsBig_Floor
+      rect:
+        serializedVersion: 2
+        x: 168.04291
+        y: 26.07612
+        width: 142.88097
+        height: 113.89713
+      alignment: 9
+      pivot: {x: 0.5036157, y: 0.47344372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.48339, y: -57.02469}
+        - {x: -71.48339, y: -10.024685}
+        - {x: -71.48339, y: 18.975315}
+        - {x: -19.48339, y: 56.97532}
+        - {x: 10.516609, y: 56.97532}
+        - {x: 71.51661, y: 4.975315}
+        - {x: 71.51661, y: -16.024685}
+        - {x: 12.516609, y: -57.02469}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuildItemsBig_WallWindow
+      rect:
+        serializedVersion: 2
+        x: 366.0429
+        y: 185.07613
+        width: 66.94418
+        height: 114.87257
+      alignment: 9
+      pivot: {x: 0.5072448, y: 0.47812873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.514999, y: -57.51241}
+        - {x: -28.515, y: -57.51241}
+        - {x: -33.515, y: -44.51241}
+        - {x: -33.515, y: 55.48759}
+        - {x: -30.515, y: 57.487595}
+        - {x: -17.515, y: 57.487595}
+        - {x: 33.485, y: 31.48759}
+        - {x: 33.485, y: -21.51241}
+        - {x: 31.485, y: -49.51241}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuildItemsBig_Wall
+      rect:
+        serializedVersion: 2
+        x: 366.0429
+        y: 30.07612
+        width: 66.94418
+        height: 114.87257
+      alignment: 9
+      pivot: {x: 0.5072448, y: 0.4346023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.515, y: -57.5124}
+        - {x: -33.515, y: -44.5124}
+        - {x: -33.515, y: 55.4876}
+        - {x: -30.515, y: 57.4876}
+        - {x: -17.515, y: 57.4876}
+        - {x: 33.485, y: 31.487598}
+        - {x: 33.485, y: -21.512402}
+        - {x: 31.485, y: -49.5124}
+        - {x: -15.514999, y: -57.5124}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuildItemsBig_Repair
+      rect:
+        serializedVersion: 2
+        x: 497.05133
+        y: 187.07613
+        width: 99.87257
+        height: 112.847755
+      alignment: 9
+      pivot: {x: 0.6302899, y: 0.46898472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.01239, y: -56.5}
+        - {x: 19.012386, y: -56.5}
+        - {x: -31.987614, y: -35.500004}
+        - {x: -49.987614, y: 0.4999962}
+        - {x: -49.987614, y: 15.499996}
+        - {x: -6.9876137, y: 56.5}
+        - {x: 48.012386, y: 56.5}
+        - {x: 50.012386, y: 48.499996}
+        - {x: 50.012386, y: -9.500004}
+        - {x: 41.012386, y: -28.500004}
+        - {x: 44.012386, y: -44.500004}
+        - {x: 44.012386, y: -52.500004}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

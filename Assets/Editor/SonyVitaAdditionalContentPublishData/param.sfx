@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- See Param_File_Editor-Users_Guide_e.pdf -->
+<paramsfo>
+  <param key="CATEGORY">gd</param>
+  <param key="APP_VER">01.00</param>
+  <param key="ATTRIBUTE">33554432</param>
+  <param key="ATTRIBUTE_MINOR">2</param>
+  <param key="CONTENT_ID">ED1633-NPXB01864_00-TESTADDCONT00000</param>
+  <param key="PARENTAL_LEVEL">1</param>
+  <param key="SAVEDATA_MAX_SIZE">10240</param>
+  <param key="STITLE">TestAddCont</param>
+  <param key="TITLE">Test Additional Content</param>
+  <param key="TITLE_ID">NPXB01864_00</param>
+  <param key="VERSION">01.00</param>
+</paramsfo>

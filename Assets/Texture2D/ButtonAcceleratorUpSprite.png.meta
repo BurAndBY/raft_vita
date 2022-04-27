@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 9e806a782a40b9c40960b307cc4e1874
+timeCreated: 1649264578
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ButtonAcceleratorUpSprite
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 256
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: PSP2
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButtonAcceleratorUpSprite
+      rect:
+        serializedVersion: 2
+        x: 0.076120496
+        y: 0.076120496
+        width: 255.84775
+        height: 255.84775
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120.999985, y: -50.999985}
+        - {x: -127.999985, y: -32.999985}
+        - {x: -127.999985, y: 30.000017}
+        - {x: -124.999985, y: 53.00001}
+        - {x: -109.999985, y: 74.000015}
+        - {x: -74.999985, y: 110.000015}
+        - {x: -50.999985, y: 121.000015}
+        - {x: -23.999985, y: 128.00002}
+        - {x: 22.000015, y: 128.00002}
+        - {x: 44.000015, y: 126.000015}
+        - {x: 88.000015, y: 98.000015}
+        - {x: 115.000015, y: 66.000015}
+        - {x: 128.00002, y: 29.000015}
+        - {x: 128.00002, y: -29.999987}
+        - {x: 127.000015, y: -36.999985}
+        - {x: 109.000015, y: -73.999985}
+        - {x: 82.000015, y: -102.999985}
+        - {x: 46.000015, y: -122.999985}
+        - {x: 28.000015, y: -127.999985}
+        - {x: -32.999985, y: -127.999985}
+        - {x: -66.999985, y: -114.999985}
+        - {x: -102.999985, y: -81.999985}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

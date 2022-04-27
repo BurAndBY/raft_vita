@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900e54d15fa1c3643b0cfdee82216c66, type: 3}
+  m_Name: Table
+  m_EditorClassIdentifier:
+  setAnimationIdle: 0
+  index: 33
+  prefab: {fileID: 1785031955827363, guid: c881636ece5a55844993bdf89fefc140, type: 2}
+  sprite: {fileID: 21300056, guid: 6366d9f63d8862543a292606afaf6ed5, type: 3}
+  stackSize: 1
+  displayName: Table
+  displayDescription: 'Looks nice next to a chair
+
+	
+
+	'
+  useButtonName: LeftClick

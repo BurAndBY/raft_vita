@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 58edb0ec08e6f5c47b76e1583c89e0b9
+timeCreated: 1649264578
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ButtonResetSprite
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 256
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: PSP2
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButtonResetSprite
+      rect:
+        serializedVersion: 2
+        x: 10.07612
+        y: 8.07612
+        width: 235.84775
+        height: 233.84775
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.5128289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.000015, y: 117.00001}
+        - {x: 106.00001, y: 69.00001}
+        - {x: 118.00001, y: 37.000008}
+        - {x: 118.00001, y: -34.999992}
+        - {x: 113.000015, y: -65.99999}
+        - {x: 49.000015, y: -114.999985}
+        - {x: 41.000015, y: -117}
+        - {x: -20.999985, y: -117}
+        - {x: -44.999985, y: -113.999985}
+        - {x: -73.999985, y: -101.999985}
+        - {x: -115.999985, y: -47.999992}
+        - {x: -117.99998, y: -33.999992}
+        - {x: -117.99998, y: 34.000008}
+        - {x: -100.999985, y: 76.00001}
+        - {x: -48.999985, y: 114.00001}
+        - {x: -35.999985, y: 117.00001}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

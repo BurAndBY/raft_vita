@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b5b56daa2344646ab120184672ffd4, type: 3}
+  m_Name: MainScene Water
+  m_EditorClassIdentifier:
+  shaders:
+  - {fileID: 4800000, guid: 226d5fa0675ed434daaea5e2c69ce880, type: 3}
+  - {fileID: 4800000, guid: 83370a64294c7ab4bbb5012ac8012afd, type: 3}
+  - {fileID: 4800000, guid: 76f98554d55a5c44fb406ff9dc9bb7a0, type: 3}
+  - {fileID: 4800000, guid: aed093e96c860234d838b2b630a47440, type: 3}
+  - {fileID: 4800000, guid: 4ea2f8a1c7d8adb4a9b19d193d85d16e, type: 3}
+  - {fileID: 4800000, guid: 434c7d2a0566b954c84698ec3f4e8f6a, type: 3}
+  - {fileID: 4800000, guid: 8691078d877fa194aaef3a1c9d0124cd, type: 3}
+  - {fileID: 4800000, guid: 9e44e24e93b60c5408e6eca033fd3c73, type: 3}
+  - {fileID: 4800000, guid: 6eeee366a340c484b958a7ee30d7ba23, type: 3}
+  - {fileID: 4800000, guid: 0f6463959caec2e41adc85f59d07461f, type: 3}

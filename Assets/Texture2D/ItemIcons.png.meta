@@ -1,0 +1,913 @@
+fileFormatVersion: 2
+guid: 6366d9f63d8862543a292606afaf6ed5
+timeCreated: 1649264573
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Item_SharkmeatRaw
+    21300002: Item_SharkmeatCooked
+    21300004: Icon_Potato
+    21300006: Icon_Hook1
+    21300008: Item_Plank
+    21300010: Item_Scrap
+    21300012: Item_BakedPotato
+    21300014: Item_CanEmpty
+    21300016: Item_CanFresh
+    21300018: Item_CanSalt
+    21300020: Item_FishingRod1
+    21300022: Item_MackerelRaw
+    21300024: Item_MackerelCooked
+    21300026: Item_Hammer
+    21300028: Item_NA
+    21300030: Item_CookingStation
+    21300032: Item_Purifier
+    21300034: Item_Thatch
+    21300036: Item_CropPlot
+    21300038: Item_Rope
+    21300040: Item_Spear
+    21300042: Item_Axe
+    21300044: Item_SeedsPalm
+    21300046: Item_NetGathering
+    21300048: "\xCFtem_CropPlotBig"
+    21300050: Item_Coconut
+    21300052: Item_StorageSmall
+    21300054: Item_Lantern
+    21300056: Item_Table
+    21300058: Item_Chair
+    21300060: Item_Beet
+    21300062: Item_BeetCooked
+    21300064: Item_Nail
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: PSP2
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Item_SharkmeatRaw
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 61.923878
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5167635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.000002, y: -12.961939}
+        - {x: -32, y: -6.961939}
+        - {x: -32, y: 16.038063}
+        - {x: -22, y: 29.038061}
+        - {x: -8, y: 31.038063}
+        - {x: 30.000002, y: 31.038063}
+        - {x: 32, y: 27.038061}
+        - {x: 32, y: -15.961939}
+        - {x: 17, y: -30.961939}
+        - {x: -8, y: -30.961939}
+        - {x: -21, y: -11.961939}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_SharkmeatCooked
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 61.923878
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5167635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.000002, y: -30.961939}
+        - {x: -32, y: -25.96194}
+        - {x: -32, y: 15.038061}
+        - {x: -9, y: 31.038063}
+        - {x: 26, y: 31.038063}
+        - {x: 32, y: 29.038061}
+        - {x: 32, y: -14.961939}
+        - {x: 19, y: -30.961939}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_Potato
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -23}
+        - {x: 29, y: -21}
+        - {x: 29, y: -15.000001}
+        - {x: 6, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: 25}
+        - {x: -31, y: 32}
+        - {x: 20, y: 32}
+        - {x: 27.000002, y: 25}
+        - {x: 29, y: 16}
+        - {x: 29, y: -11}
+        - {x: 32, y: -10}
+        - {x: 32, y: -23}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icon_Hook1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 62.948685
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50835055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -31.474344}
+        - {x: -32, y: -31.474344}
+        - {x: -32, y: 31.525656}
+        - {x: 32, y: 31.525656}
+        - {x: 32, y: -23.474344}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Plank
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.0761204
+        width: 64
+        height: 56.897125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5259296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -28.524683}
+        - {x: -32, y: -25.524683}
+        - {x: -32, y: 10.475319}
+        - {x: -5, y: 28.47532}
+        - {x: 29, y: 28.47532}
+        - {x: 32, y: 27.475319}
+        - {x: 32, y: 4.475319}
+        - {x: 15.000001, y: -28.524683}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Scrap
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -32}
+        - {x: -32, y: -25}
+        - {x: -32, y: -1}
+        - {x: -31, y: 4}
+        - {x: -19, y: 30.000002}
+        - {x: -7, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -28}
+        - {x: 20, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_BakedPotato
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: 17}
+        - {x: -17, y: 31}
+        - {x: -4, y: 31}
+        - {x: -4, y: 32}
+        - {x: 2, y: 32}
+        - {x: 2, y: 31}
+        - {x: 27.000002, y: 31}
+        - {x: 32, y: 28}
+        - {x: 32, y: -15.000001}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_CanEmpty
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 61.923878
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5167635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.038061, y: -32}
+        - {x: -30.961939, y: -32}
+        - {x: -30.961939, y: 28}
+        - {x: -18.961939, y: 32}
+        - {x: 24.038061, y: 32}
+        - {x: 29.038061, y: 24}
+        - {x: 31.038063, y: 18}
+        - {x: 31.038063, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_CanFresh
+      rect:
+        serializedVersion: 2
+        x: 64.05637
+        y: 128
+        width: 63.867504
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5001546, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.990126, y: -32}
+        - {x: -31.990126, y: -21}
+        - {x: -31.990126, y: 6}
+        - {x: -8.990126, y: 32}
+        - {x: 21.009874, y: 32}
+        - {x: 32.009872, y: 22}
+        - {x: 32.009872, y: -9}
+        - {x: 4.0098743, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_CanSalt
+      rect:
+        serializedVersion: 2
+        x: 128.05637
+        y: 128
+        width: 63.867504
+        height: 64
+      alignment: 9
+      pivot: {x: 0.50015473, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.990118, y: -32}
+        - {x: -31.990118, y: -21}
+        - {x: -31.990118, y: 6}
+        - {x: -8.990118, y: 32}
+        - {x: 21.009882, y: 32}
+        - {x: 32.00988, y: 22}
+        - {x: 32.00988, y: -9}
+        - {x: 4.009882, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_FishingRod1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.000002, y: -29}
+        - {x: -32, y: -8}
+        - {x: -32, y: 27.000002}
+        - {x: -31, y: 29}
+        - {x: -29, y: 32}
+        - {x: -13, y: 32}
+        - {x: 24, y: 17}
+        - {x: 32, y: -8}
+        - {x: 32, y: -32}
+        - {x: 16, y: -32}
+        - {x: -1, y: -10}
+        - {x: -7, y: -2}
+        - {x: -8, y: -1}
+        - {x: -9, y: -3}
+        - {x: -7, y: -15.000001}
+        - {x: -16, y: -29}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_MackerelRaw
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: 26}
+        - {x: -28, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -13}
+        - {x: 31, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_MackerelCooked
+      rect:
+        serializedVersion: 2
+        x: 132.02675
+        y: 193.07613
+        width: 58.946495
+        height: 62.923878
+      alignment: 9
+      pivot: {x: 0.47455326, y: 0.49144897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.499996, y: -31.538065}
+        - {x: -29.499996, y: -29.538065}
+        - {x: -29.499996, y: -10.538065}
+        - {x: -17.499996, y: 31.461935}
+        - {x: 13.500005, y: 31.461935}
+        - {x: 29.500004, y: 19.461935}
+        - {x: 29.500004, y: -4.538065}
+        - {x: -6.499996, y: -31.538065}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Hammer
+      rect:
+        serializedVersion: 2
+        x: 193.01112
+        y: 192
+        width: 62.988884
+        height: 64
+      alignment: 9
+      pivot: {x: 0.49197373, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.494434, y: -32}
+        - {x: -6.5055656, y: -32}
+        - {x: -6.5055656, y: -31}
+        - {x: -31.505566, y: -31}
+        - {x: -31.505566, y: 24}
+        - {x: -24.505566, y: 31}
+        - {x: -20.505566, y: 32}
+        - {x: 16.494434, y: 32}
+        - {x: 31.494434, y: 12}
+        - {x: 31.494434, y: -11}
+        - {x: 8.494434, y: -31}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_NA
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 11.07612
+        width: 64
+        height: 52.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.395358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23.461939}
+        - {x: -9, y: 26.461939}
+        - {x: 18, y: 26.461939}
+        - {x: 18, y: 25.461939}
+        - {x: 17, y: 22.461939}
+        - {x: -2, y: 22.461939}
+      - - {x: 32, y: -26.538061}
+        - {x: -32, y: -26.538061}
+        - {x: -32, y: 15.461939}
+        - {x: 26, y: 15.461939}
+        - {x: 32, y: 4.461939}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_CookingStation
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.000001, y: -32}
+        - {x: -32, y: -15.000001}
+        - {x: -32, y: 25}
+        - {x: -16, y: 32}
+        - {x: 13, y: 32}
+        - {x: 32, y: 12}
+        - {x: 32, y: -20}
+        - {x: 25, y: -28}
+        - {x: 21, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Purifier
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -32}
+        - {x: -32, y: -12}
+        - {x: -32, y: 29}
+        - {x: -22, y: 32}
+        - {x: 23, y: 32}
+        - {x: 32, y: 18}
+        - {x: 32, y: -23}
+        - {x: 22, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Thatch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 61.973248
+        height: 63.957092
+      alignment: 9
+      pivot: {x: 0.5163518, y: 0.50033545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.986626, y: -31.978546}
+        - {x: -30.986624, y: -25.978546}
+        - {x: -30.986624, y: 12.021454}
+        - {x: -12.986624, y: 32.021454}
+        - {x: 31.013378, y: 32.021454}
+        - {x: 31.013378, y: -14.978547}
+        - {x: 21.013376, y: -23.978546}
+        - {x: -6.986624, y: -31.978546}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_CropPlot
+      rect:
+        serializedVersion: 2
+        x: 65.07612
+        y: 257.05972
+        width: 62.847755
+        height: 61.897366
+      alignment: 9
+      pivot: {x: 0.49204433, y: 0.4998642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.499996, y: -31.008406}
+        - {x: -31.499996, y: -18.008406}
+        - {x: -31.499996, y: 14.991595}
+        - {x: -7.499996, y: 30.991594}
+        - {x: 19.500004, y: 30.991594}
+        - {x: 31.500004, y: 29.991596}
+        - {x: 31.500004, y: -5.0084057}
+        - {x: 11.500004, y: -31.008406}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Rope
+      rect:
+        serializedVersion: 2
+        x: 129.07613
+        y: 256
+        width: 59.897125
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5162831, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.975311, y: -32}
+        - {x: -23.024689, y: -32}
+        - {x: -27.024689, y: -31}
+        - {x: -30.024689, y: -18}
+        - {x: -30.024689, y: 16}
+        - {x: -22.024689, y: 32}
+        - {x: 29.975311, y: 32}
+        - {x: 29.975311, y: 0}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Spear
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 59.973248
+        height: 60.9665
+      alignment: 9
+      pivot: {x: 0.53357124, y: 0.52487844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.986624, y: -30.48325}
+        - {x: -29.986624, y: -30.48325}
+        - {x: -29.986624, y: -12.48325}
+        - {x: -18.986624, y: 10.51675}
+        - {x: 6.013376, y: 30.51675}
+        - {x: 30.013376, y: 30.51675}
+        - {x: 30.013376, y: 5.5167503}
+        - {x: 20.013376, y: -22.48325}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Axe
+      rect:
+        serializedVersion: 2
+        x: 265.0761
+        y: 256
+        width: 51.872566
+        height: 64
+      alignment: 9
+      pivot: {x: 0.44192702, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.987606, y: -32}
+        - {x: -26.012394, y: -32}
+        - {x: -26.012394, y: -25}
+        - {x: -25.012394, y: -20}
+        - {x: -16.012394, y: 0}
+        - {x: -23.012394, y: 3}
+        - {x: -26.012394, y: 17}
+        - {x: -26.012394, y: 24}
+        - {x: -11.012394, y: 32}
+        - {x: 24.987606, y: 32}
+        - {x: 25.987606, y: 31}
+        - {x: 25.987606, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_SeedsPalm
+      rect:
+        serializedVersion: 2
+        x: 261.0761
+        y: 196.11833
+        width: 58.92388
+        height: 59.881676
+      alignment: 9
+      pivot: {x: 0.4569266, y: 0.46561268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.538052, y: 25.94083}
+        - {x: -24.538052, y: 28.94083}
+        - {x: -24.538052, y: 29.94083}
+        - {x: -12.538052, y: 29.94083}
+        - {x: -12.538052, y: 28.94083}
+        - {x: -16.538052, y: 25.94083}
+      - - {x: -16.538052, y: 25.94083}
+        - {x: 0.4619484, y: 25.94083}
+        - {x: 13.461948, y: 11.94083}
+        - {x: 17.461948, y: -0.05916977}
+        - {x: 17.461948, y: -22.05917}
+        - {x: 7.4619484, y: -28.05917}
+        - {x: -19.538052, y: -28.05917}
+        - {x: -29.538054, y: -23.05917}
+        - {x: -29.538054, y: 2.9408302}
+        - {x: -21.538052, y: 24.940832}
+      - - {x: 25.461948, y: -30.05917}
+        - {x: 23.461948, y: -23.05917}
+        - {x: 23.461948, y: 19.94083}
+        - {x: 25.461948, y: 22.94083}
+        - {x: 29.461948, y: 23.94083}
+        - {x: 29.461948, y: -30.05917}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_NetGathering
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 61.973248
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -30.986624}
+        - {x: -32, y: -30.986624}
+        - {x: -32, y: 31.013378}
+        - {x: -20, y: 31.013378}
+        - {x: 22, y: 18.013376}
+        - {x: 32, y: 14.013376}
+        - {x: 32, y: -23.986624}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\xCFtem_CropPlotBig"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 63.923878
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5005954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -31.96194}
+        - {x: -32, y: -10.961941}
+        - {x: -32, y: 25.03806}
+        - {x: -24, y: 32.03806}
+        - {x: 12, y: 32.03806}
+        - {x: 16, y: 22.03806}
+        - {x: 18, y: 32.03806}
+        - {x: 31, y: 32.03806}
+        - {x: 32, y: 31.03806}
+        - {x: 32, y: -14.961942}
+        - {x: 16, y: -25.96194}
+        - {x: 3, y: -31.96194}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Coconut
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64.07612
+        width: 63.923878
+        height: 63.923878
+      alignment: 9
+      pivot: {x: 0.5005954, y: 0.49940464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.96194, y: -32.038055}
+        - {x: -31.96194, y: -30.03806}
+        - {x: -31.96194, y: 12.961943}
+        - {x: -11.961941, y: 31.961943}
+        - {x: 30.038061, y: 31.961943}
+        - {x: 32.03806, y: 20.961943}
+        - {x: 32.03806, y: -13.038057}
+        - {x: 28.03806, y: -18.038057}
+        - {x: 14.038059, y: -32.038055}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_StorageSmall
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -32}
+        - {x: -32, y: -15.000001}
+        - {x: -32, y: 8}
+        - {x: -30.000002, y: 18}
+        - {x: -25, y: 27.000002}
+        - {x: -30.000002, y: 31}
+        - {x: -30.000002, y: 32}
+        - {x: 26, y: 32}
+        - {x: 32, y: 16}
+        - {x: 32, y: -21}
+        - {x: 20, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Lantern
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 61.923878
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5167635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.038061, y: -32}
+        - {x: -30.961939, y: -32}
+        - {x: -30.961939, y: 32}
+        - {x: 30.038061, y: 32}
+        - {x: 31.038063, y: 28}
+        - {x: 31.038063, y: -26}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Table
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320.0761
+        width: 64
+        height: 61.90409
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5156992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.000002, y: -22.028154}
+        - {x: -32, y: -17.028154}
+        - {x: -32, y: 9.971846}
+        - {x: -10, y: 30.971848}
+        - {x: 21, y: 30.971848}
+        - {x: 32, y: 23.971846}
+        - {x: 32, y: -8.028154}
+        - {x: 12, y: -31.028154}
+        - {x: -3, y: -31.028154}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Chair
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 59.963715
+        height: 63.923878
+      alignment: 9
+      pivot: {x: 0.53365606, y: 0.5005954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.981857, y: 5.038059}
+        - {x: -29.981857, y: 4.038059}
+        - {x: -29.981857, y: 11.038059}
+        - {x: -28.981857, y: 11.038059}
+        - {x: -26.981857, y: 9.038059}
+      - - {x: -24.98186, y: -31.96194}
+        - {x: -25.981857, y: -26.961943}
+        - {x: -25.981857, y: 7.038059}
+        - {x: -3.9818573, y: 32.03806}
+        - {x: 28.018143, y: 32.03806}
+        - {x: 30.018143, y: 31.03806}
+        - {x: 30.018143, y: -31.96194}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Beet
+      rect:
+        serializedVersion: 2
+        x: 129.02675
+        y: 320
+        width: 60.897125
+        height: 64
+      alignment: 9
+      pivot: {x: 0.508616, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.524689, y: -32}
+        - {x: -30.475311, y: -32}
+        - {x: -30.475311, y: 11}
+        - {x: -19.475311, y: 28}
+        - {x: 8.524689, y: 32}
+        - {x: 30.52469, y: 32}
+        - {x: 30.52469, y: -13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_BeetCooked
+      rect:
+        serializedVersion: 2
+        x: 194.02675
+        y: 320
+        width: 60.897125
+        height: 63.923878
+      alignment: 9
+      pivot: {x: 0.49219486, y: 0.5005954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.4753113, y: -31.96194}
+        - {x: -30.475313, y: -31.96194}
+        - {x: -30.475313, y: 17.03806}
+        - {x: -13.475311, y: 32.03806}
+        - {x: 29.52469, y: 32.03806}
+        - {x: 30.524689, y: 28.03806}
+        - {x: 30.524689, y: -17.96194}
+        - {x: 19.524689, y: -29.961943}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Nail
+      rect:
+        serializedVersion: 2
+        x: 263.01468
+        y: 320
+        width: 50.958576
+        height: 62.973248
+      alignment: 9
+      pivot: {x: 0.4903065, y: 0.5081523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.493967, y: -30.486624}
+        - {x: -25.493967, y: -30.486624}
+        - {x: -25.493967, y: -12.486624}
+        - {x: -10.493967, y: 30.513378}
+        - {x: -6.493967, y: 31.513376}
+        - {x: 10.506033, y: 31.513376}
+        - {x: 22.506033, y: 22.513376}
+        - {x: 25.506033, y: 15.513377}
+        - {x: 25.506033, y: 4.513376}
+        - {x: -4.493967, y: -24.486624}
+      - - {x: 9.506033, y: -31.486624}
+        - {x: 1.506033, y: -31.486624}
+        - {x: 2.506033, y: -28.486624}
+        - {x: 8.506033, y: -28.486624}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

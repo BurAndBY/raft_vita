@@ -1,0 +1,713 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1192796011972876}
+  m_IsPrefabParent: 1
+--- !u!1 &1192796011972876
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4647561932496854}
+  - component: {fileID: 114451959741466116}
+  - component: {fileID: 136843929108635817}
+  m_Layer: 11
+  m_Name: Plant_Palm
+  m_TagString: Plant
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4647561932496854
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1192796011972876}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.120743394, y: -0.218, z: 0.48004395}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4860851787770032}
+  - {fileID: 4907372740577018}
+  - {fileID: 4058217945971459}
+  - {fileID: 4649317470196565}
+  - {fileID: 4663827357141744}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114451959741466116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1192796011972876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c87d8623b981b746b22c569fc02f4fd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  plantIndex: 22
+  growTime: 360
+  minScale: {x: 0.01, y: 0.01, z: 0.01}
+  maxScale: {x: 1, y: 1, z: 1}
+  harvestable: 0
+  yieldItems:
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a76eeab096691554c8471e1c6e4608bf, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a76eeab096691554c8471e1c6e4608bf, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a76eeab096691554c8471e1c6e4608bf, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a76eeab096691554c8471e1c6e4608bf, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 1
+  slotPlantIsOn:
+    transform: {fileID: 0}
+    busy: 0
+    plant: {fileID: 0}
+--- !u!136 &136843929108635817
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1192796011972876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14
+  m_Height: 2.17
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.11, z: 0}
+--- !u!1 &1796403073671485
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4860851787770032}
+  - component: {fileID: 33092996320824024}
+  - component: {fileID: 23399994194245369}
+  m_Layer: 0
+  m_Name: model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4860851787770032
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1796403073671485}
+  m_LocalRotation: {x: -0.7071067, y: 1.909779E-08, z: -1.2512347E-08, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4647561932496854}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.999985, y: -5.336086E-07, z: 2.5613208E-06}
+--- !u!33 &33092996320824024
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1796403073671485}
+  m_Mesh: {fileID: 4300000, guid: 4577232a1d162ed44a02c7455f7fa19d, type: 2}
+--- !u!23 &23399994194245369
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1796403073671485}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c07d15ba7ef142d449ae33bd149b3fdc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1460900822017275
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4907372740577018}
+  - component: {fileID: 114895366396653232}
+  - component: {fileID: 54613967890285129}
+  - component: {fileID: 135378454237238102}
+  - component: {fileID: 114446108652769621}
+  m_Layer: 11
+  m_Name: Coconut_Pickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4907372740577018
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1460900822017275}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.013999999, y: 2.6759999, z: 0.19599998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4194179319828592}
+  m_Father: {fileID: 4647561932496854}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114895366396653232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1460900822017275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f459230d4303a4caa46b697da230fb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!54 &54613967890285129
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1460900822017275}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &135378454237238102
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1460900822017275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12
+  m_Center: {x: 0, y: 0.13, z: 0}
+--- !u!114 &114446108652769621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1460900822017275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b4b55fef0d2a94bb6fe10a3ffbf465, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  iItem: {fileID: 11400000, guid: 085e789b4f088344da76b18bc20ceb8d, type: 2}
+  amount: 1
+  canBePickedUp: 0
+  dropper: {fileID: 0}
+  isDropped: 0
+--- !u!1 &1368611460180871
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4194179319828592}
+  - component: {fileID: 33879654178002196}
+  - component: {fileID: 23891887503159094}
+  m_Layer: 0
+  m_Name: coconut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4194179319828592
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1368611460180871}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4907372740577018}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33879654178002196
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1368611460180871}
+  m_Mesh: {fileID: 4300000, guid: 1c3d6aa6dc7f90e4d8f7035813a2bdbe, type: 2}
+--- !u!23 &23891887503159094
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1368611460180871}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0c618d6b02328ce44800a584b186e851, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1955278740783079
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4058217945971459}
+  - component: {fileID: 114044346278534379}
+  - component: {fileID: 54357086742722217}
+  - component: {fileID: 135382320337159468}
+  - component: {fileID: 114831060042957855}
+  m_Layer: 11
+  m_Name: Coconut_Pickup (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058217945971459
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1955278740783079}
+  m_LocalRotation: {x: -0, y: 0.9496903, z: -0, w: 0.31319067}
+  m_LocalPosition: {x: 0.22500002, y: 2.74, z: 0.014999986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4362365566757881}
+  m_Father: {fileID: 4647561932496854}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -180, y: -36.50324, z: 180}
+--- !u!114 &114044346278534379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1955278740783079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f459230d4303a4caa46b697da230fb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!54 &54357086742722217
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1955278740783079}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &135382320337159468
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1955278740783079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12
+  m_Center: {x: 0, y: 0.13, z: 0}
+--- !u!114 &114831060042957855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1955278740783079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b4b55fef0d2a94bb6fe10a3ffbf465, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  iItem: {fileID: 11400000, guid: 085e789b4f088344da76b18bc20ceb8d, type: 2}
+  amount: 1
+  canBePickedUp: 0
+  dropper: {fileID: 0}
+  isDropped: 0
+--- !u!1 &1692690967114905
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4362365566757881}
+  - component: {fileID: 33626734693599559}
+  - component: {fileID: 23165910352789759}
+  m_Layer: 0
+  m_Name: coconut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4362365566757881
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1692690967114905}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4058217945971459}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33626734693599559
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1692690967114905}
+  m_Mesh: {fileID: 4300000, guid: 1c3d6aa6dc7f90e4d8f7035813a2bdbe, type: 2}
+--- !u!23 &23165910352789759
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1692690967114905}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0c618d6b02328ce44800a584b186e851, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1753313937219514
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4649317470196565}
+  - component: {fileID: 114629934656109785}
+  - component: {fileID: 54850293424930625}
+  - component: {fileID: 135790055330710920}
+  - component: {fileID: 114833177798862352}
+  m_Layer: 11
+  m_Name: Coconut_Pickup (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4649317470196565
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1753313937219514}
+  m_LocalRotation: {x: -0, y: 0.8969263, z: -0, w: -0.4421801}
+  m_LocalPosition: {x: 0.023999989, y: 2.7, z: -0.21399999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4771561030755425}
+  m_Father: {fileID: 4647561932496854}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 180, y: 52.486126, z: 180}
+--- !u!114 &114629934656109785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1753313937219514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f459230d4303a4caa46b697da230fb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!54 &54850293424930625
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1753313937219514}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &135790055330710920
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1753313937219514}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12
+  m_Center: {x: 0, y: 0.13, z: 0}
+--- !u!114 &114833177798862352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1753313937219514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b4b55fef0d2a94bb6fe10a3ffbf465, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  iItem: {fileID: 11400000, guid: 085e789b4f088344da76b18bc20ceb8d, type: 2}
+  amount: 1
+  canBePickedUp: 0
+  dropper: {fileID: 0}
+  isDropped: 0
+--- !u!1 &1020797631579368
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4771561030755425}
+  - component: {fileID: 33761839010358427}
+  - component: {fileID: 23053933347755539}
+  m_Layer: 0
+  m_Name: coconut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4771561030755425
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1020797631579368}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4649317470196565}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33761839010358427
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1020797631579368}
+  m_Mesh: {fileID: 4300000, guid: 1c3d6aa6dc7f90e4d8f7035813a2bdbe, type: 2}
+--- !u!23 &23053933347755539
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1020797631579368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0c618d6b02328ce44800a584b186e851, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1095551379083239
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4663827357141744}
+  - component: {fileID: 114409549864979229}
+  - component: {fileID: 54231630940581583}
+  - component: {fileID: 135935057893719325}
+  - component: {fileID: 114161302915921054}
+  m_Layer: 11
+  m_Name: Coconut_Pickup (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4663827357141744
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1095551379083239}
+  m_LocalRotation: {x: -0.06494761, y: 0.49657118, z: -0.11225273, w: -0.858253}
+  m_LocalPosition: {x: -0.199, y: 2.705, z: -0.034999996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4242587113559431}
+  m_Father: {fileID: 4647561932496854}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 3.2060468E-06, y: 60.10595, z: -14.903075}
+--- !u!114 &114409549864979229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1095551379083239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f459230d4303a4caa46b697da230fb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!54 &54231630940581583
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1095551379083239}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &135935057893719325
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1095551379083239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.12
+  m_Center: {x: 0, y: 0.13, z: 0}
+--- !u!114 &114161302915921054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1095551379083239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b4b55fef0d2a94bb6fe10a3ffbf465, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  iItem: {fileID: 11400000, guid: 085e789b4f088344da76b18bc20ceb8d, type: 2}
+  amount: 1
+  canBePickedUp: 0
+  dropper: {fileID: 0}
+  isDropped: 0
+--- !u!1 &1147021249116518
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4242587113559431}
+  - component: {fileID: 33567623104253864}
+  - component: {fileID: 23471532750281613}
+  m_Layer: 0
+  m_Name: coconut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4242587113559431
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1147021249116518}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4663827357141744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &33567623104253864
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1147021249116518}
+  m_Mesh: {fileID: 4300000, guid: 1c3d6aa6dc7f90e4d8f7035813a2bdbe, type: 2}
+--- !u!23 &23471532750281613
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1147021249116518}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0c618d6b02328ce44800a584b186e851, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

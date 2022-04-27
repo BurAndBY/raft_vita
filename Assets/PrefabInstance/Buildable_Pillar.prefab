@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1780915659005733}
+  m_IsPrefabParent: 1
+--- !u!1 &1780915659005733
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4405835187333973}
+  - component: {fileID: 114467559544576350}
+  - component: {fileID: 114622833458724057}
+  - component: {fileID: 114246298221210059}
+  m_Layer: 0
+  m_Name: Buildable_Pillar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4405835187333973
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1780915659005733}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.74, y: 1.39, z: 1.3513539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4942780988476080}
+  - {fileID: 4206872469918166}
+  - {fileID: 4060763965033196}
+  - {fileID: 4960914677171891}
+  - {fileID: 4236875223791278}
+  - {fileID: 4892507156500058}
+  - {fileID: 4029758275247880}
+  - {fileID: 4656005150308753}
+  - {fileID: 4756225387865291}
+  - {fileID: 4189916312027601}
+  - {fileID: 4864109276696567}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114467559544576350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1780915659005733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f72bef14a760c64cbceb5f95d43f8f2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  blockIndex: 0
+  type: 2
+  itemIndex: 7
+  prefab: {fileID: 1780915659005733}
+  specialySaved: 0
+  showHealthOnMouseOver: 1
+  health: 100
+  maxHealth: 100
+  isRotateable: 1
+  canRotateFreely: 0
+  removeableWithAxe: 1
+  snapsToQuads: 1
+  snapsToTopCollider: 0
+  buildOffset: {x: 0, y: 0.15, z: 0}
+  buildCost:
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: c0743915715f72348b9df0f915e88c41, type: 2}
+    amount: 2
+  sprite: {fileID: 21300002, guid: 04a4030c692ecc64ea9a242745602a67, type: 3}
+  displayName: Pillar
+  description: Important if you want multiple floors on your raft.
+  onoffColliders: []
+  overlappingComponent: {fileID: 114622833458724057}
+  overlappChecks:
+  - {fileID: 114747648349165132}
+  - {fileID: 114399422521358715}
+  - {fileID: 114358876793700178}
+  - {fileID: 114035628167624375}
+  - {fileID: 114183060085419252}
+  - {fileID: 114591641790591476}
+  - {fileID: 114350737481156948}
+  - {fileID: 114764092905546237}
+  - {fileID: 114470516594924605}
+  requireAll: 1
+  requireHitCount: 1
+--- !u!114 &114622833458724057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1780915659005733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d494628d0378e4db1b368b927e3ecb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  renderers:
+  - {fileID: 23779686408192640}
+  advancedCollisions:
+  - {fileID: 114962328617810701}
+--- !u!114 &114246298221210059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1780915659005733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bded3a60944032242b6e8ec83425715c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  requiredColliders:
+  - {fileID: 65628062864031433}
+--- !u!1 &1613673970491252
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4942780988476080}
+  - component: {fileID: 65281432289889230}
+  - component: {fileID: 114747648349165132}
+  m_Layer: 8
+  m_Name: Quad 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4942780988476080
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1613673970491252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 2.261, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65281432289889230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1613673970491252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114747648349165132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1613673970491252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1579828175440785
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4206872469918166}
+  - component: {fileID: 65459596596049316}
+  - component: {fileID: 114399422521358715}
+  m_Layer: 8
+  m_Name: Quad 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206872469918166
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1579828175440785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.261, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65459596596049316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1579828175440785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114399422521358715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1579828175440785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1052561439855340
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4060763965033196}
+  - component: {fileID: 65088502209198431}
+  - component: {fileID: 114358876793700178}
+  m_Layer: 8
+  m_Name: Quad 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060763965033196
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1052561439855340}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 2.261, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65088502209198431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1052561439855340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114358876793700178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1052561439855340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1934099764613420
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4960914677171891}
+  - component: {fileID: 65630300526485655}
+  - component: {fileID: 114035628167624375}
+  m_Layer: 8
+  m_Name: Quad 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4960914677171891
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1934099764613420}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 2.261, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65630300526485655
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1934099764613420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114035628167624375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1934099764613420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1116136841467462
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4236875223791278}
+  - component: {fileID: 65256485326973146}
+  - component: {fileID: 114183060085419252}
+  m_Layer: 8
+  m_Name: Quad 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4236875223791278
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1116136841467462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.261, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65256485326973146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1116136841467462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114183060085419252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1116136841467462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1956795901040337
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4892507156500058}
+  - component: {fileID: 65559004719775094}
+  - component: {fileID: 114591641790591476}
+  m_Layer: 8
+  m_Name: Quad 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4892507156500058
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1956795901040337}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 2.261, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65559004719775094
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1956795901040337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114591641790591476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1956795901040337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1123224363502410
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4029758275247880}
+  - component: {fileID: 65507873333247300}
+  - component: {fileID: 114350737481156948}
+  m_Layer: 8
+  m_Name: Quad 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4029758275247880
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1123224363502410}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.261, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65507873333247300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1123224363502410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114350737481156948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1123224363502410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1397143156461630
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4656005150308753}
+  - component: {fileID: 65417918378324986}
+  - component: {fileID: 114764092905546237}
+  m_Layer: 8
+  m_Name: Quad 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4656005150308753
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1397143156461630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 2.261, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65417918378324986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1397143156461630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114764092905546237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1397143156461630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1950884644822936
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4756225387865291}
+  - component: {fileID: 65062599636349177}
+  - component: {fileID: 114470516594924605}
+  m_Layer: 8
+  m_Name: Quad 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4756225387865291
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1950884644822936}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 2.261, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65062599636349177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1950884644822936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.3, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114470516594924605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1950884644822936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a6ba9f61b98c428c0bfeb04fb5493, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  acceptableBlocks: 0300000006000000
+--- !u!1 &1886681996167654
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4189916312027601}
+  - component: {fileID: 65628062864031433}
+  m_Layer: 0
+  m_Name: Stability
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4189916312027601
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1886681996167654}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.055, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65628062864031433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1886681996167654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.08, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1434514550000231
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4864109276696567}
+  - component: {fileID: 65105742090756036}
+  - component: {fileID: 23779686408192640}
+  - component: {fileID: 33036013197153863}
+  - component: {fileID: 114962328617810701}
+  m_Layer: 10
+  m_Name: _model / block collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4864109276696567
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1434514550000231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405835187333973}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!65 &65105742090756036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1434514550000231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2179788, y: 1.9515069, z: 0.21343145}
+  m_Center: {x: -0.0015945435, y: 1.0708765, z: -0.0035572052}
+--- !u!23 &23779686408192640
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1434514550000231}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 92bc88f08dc2daa4ebb9b3725e4bc80e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33036013197153863
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1434514550000231}
+  m_Mesh: {fileID: 4300000, guid: 17304fbc694041346b137406fafc6d95, type: 2}
+--- !u!114 &114962328617810701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1434514550000231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a57533d66531d4ea7f0c31d6108d0e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  useAsPlayerCollision: 1
+  colliders: []
+  overlappingColliders: []

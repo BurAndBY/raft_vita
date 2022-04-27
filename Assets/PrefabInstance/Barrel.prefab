@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1048846748420319}
+  m_IsPrefabParent: 1
+--- !u!1 &1048846748420319
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4950329274723827}
+  - component: {fileID: 33921937676848541}
+  - component: {fileID: 23767020679890449}
+  - component: {fileID: 65176765537611061}
+  - component: {fileID: 114981003013056979}
+  - component: {fileID: 114951123284469707}
+  - component: {fileID: 114070506778347347}
+  m_Layer: 11
+  m_Name: Barrel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4950329274723827
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_LocalRotation: {x: 0.21279117, y: 0.12901694, z: -0.06721706, w: 0.96620727}
+  m_LocalPosition: {x: 0.32, y: -0.63, z: 2.17}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 24.205408, y: -16.136137, z: 4.477011}
+--- !u!33 &33921937676848541
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_Mesh: {fileID: 4300000, guid: 19704186d1c7c734abfc86aa7df53a2b, type: 2}
+--- !u!23 &23767020679890449
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 595f6effeaf97484d857072f1491d9fc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &65176765537611061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2899065, y: 1.4768133, z: 1.2869818}
+  m_Center: {x: 1.7881393E-07, y: 5.960464E-08, z: 0}
+--- !u!114 &114981003013056979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b354735dc5dc50e418b319e1a45aaa68, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  items:
+  - spawnChance: 75
+    index: 0
+  - spawnChance: 75
+    index: 15
+  - spawnChance: 75
+    index: 8
+  - spawnChance: 15
+    index: 22
+  - spawnChance: 25
+    index: 1
+  - spawnChance: 20
+    index: 36
+--- !u!114 &114951123284469707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b4b55fef0d2a94bb6fe10a3ffbf465, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  iItem: {fileID: 11400000, guid: 6aeda29473f7ecd41b649740e358bfe1, type: 2}
+  amount: 4
+  canBePickedUp: 1
+  dropper: {fileID: 114981003013056979}
+  isDropped: 0
+--- !u!114 &114070506778347347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1048846748420319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c4af3902f8a8b49afb9fd3ad5bf038, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  water: {fileID: 0}
+  heightBonus: -0.1
+  precision: 0.2
+  displacementMode: 1

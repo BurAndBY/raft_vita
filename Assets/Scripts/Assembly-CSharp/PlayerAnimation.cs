@@ -1,0 +1,22 @@
+public enum PlayerAnimation
+{
+	Index_0_Idle,
+	Index_1_Point,
+	Trigger_PointPlace,
+	Index_2_Hook,
+	Trigger_HookLoad,
+	Trigger_HookThrow,
+	Trigger_HookFinished,
+	Index_3_Fishing,
+	Trigger_FishingLoad,
+	Trigger_FishingThrow,
+	Trigger_FishingRetract,
+	Index_4_Hammer,
+	Trigger_HammerHit,
+	Index_5_HoldItem,
+	Index_6_Spear,
+	Trigger_SpearHit,
+	Index_7_Axe,
+	Trigger_Grab,
+	Trigger_Plant
+}

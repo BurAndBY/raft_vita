@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e0ca0b65890a94ab84dcf819fdbe6a, type: 3}
+  m_Name: HopefullyOptimized
+  m_EditorClassIdentifier: 
+  spectrumShader: {fileID: 0}
+  spectrumType: 0
+  windSpeed: 1.8004
+  tileSize: 180
+  tileScale: 0.1
+  wavesAmplitude: 1
+  horizontalDisplacementScale: 3
+  phillipsCutoffFactor: 2000
+  gravity: -9.81
+  fetch: 40000
+  directionality: 0.221
+  absorptionColor: {r: 1, g: 0.8918864, b: 0.8088235, a: 1}
+  underwaterAbsorptionColor: {r: 0.53, g: 0.39, b: 0.33, a: 1}
+  diffuseColor: {r: 0.055417385, g: 0.14663005, b: 0.18382353, a: 1}
+  specularColor: {r: 0.45253026, g: 0.6168282, b: 0.6838235, a: 1}
+  depthColor: {r: 0, g: 0, b: 0, a: 1}
+  emissionColor: {r: 0, g: 0, b: 0, a: 1}
+  reflectionColor: {r: 1, g: 1, b: 1, a: 1}
+  smoothness: 0
+  customAmbientSmoothness: 0
+  ambientSmoothness: 0
+  subsurfaceScattering: 0
+  refractionDistortion: 0
+  fresnelBias: 0
+  detailFadeDistance: 0.5
+  displacementNormalsIntensity: 0.1
+  planarReflectionIntensity: 0
+  planarReflectionFlatten: 1
+  planarReflectionVerticalOffset: 0
+  edgeBlendFactor: 0
+  directionalWrapSSS: 0
+  pointWrapSSS: 0
+  density: 0
+  underwaterBlurSize: 0
+  underwaterDistortionsIntensity: 0
+  underwaterDistortionAnimationSpeed: 0.02
+  normalMapAnimation1:
+    speed: 3
+    deviation: -10
+    intensity: 1
+    tiling: {x: 1, y: 1}
+  normalMapAnimation2:
+    speed: -0.55
+    deviation: 20
+    intensity: 0.74
+    tiling: {x: 1.5, y: 1.5}
+  normalMap: {fileID: 2800000, guid: 07f880ff62000d7418f9104fe9501e9e, type: 3}
+  foamIntensity: 0
+  foamThreshold: 0.9
+  foamFadingFactor: 0.7
+  foamNormalScale: 2.2
+  foamSpecularColor: {r: 1, g: 1, b: 1, a: 0}
+  sprayThreshold: 1
+  spraySkipRatio: 0.9
+  spraySize: 1
+  foamDiffuseMap: {fileID: 2800000, guid: 27d1abf8880d0c140b279c0b71d71474, type: 3}
+  foamNormalMap: {fileID: 2800000, guid: 8ae3ee31067deba4aab08d965332849d, type: 3}
+  foamTiling: {x: 5.4, y: 5.4}

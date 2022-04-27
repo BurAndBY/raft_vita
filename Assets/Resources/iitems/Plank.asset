@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3d1558d7c63a8498ebfdb234c30049, type: 3}
+  m_Name: Plank
+  m_EditorClassIdentifier:
+  setAnimationIdle: 1
+  index: 0
+  prefab: {fileID: 1478643239770973, guid: 5d9118ea1c154664794d30d78fc54259, type: 2}
+  sprite: {fileID: 21300008, guid: 6366d9f63d8862543a292606afaf6ed5, type: 3}
+  stackSize: 10
+  displayName: Plank
+  displayDescription: A simple plank

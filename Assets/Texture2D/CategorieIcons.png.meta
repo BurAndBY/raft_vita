@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 7498e7d68ace88941a857d9925d6d6aa
+timeCreated: 1649264576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CategorieIcons_Placeables
+    21300002: CategorieIcons_Basics
+    21300004: CategorieIcons_Tools
+    21300006: CategoryIcons_Decorations
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 256
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 94.117645
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: PSP2
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CategorieIcons_Placeables
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.026751
+        width: 64
+        height: 59.967278
+      alignment: 9
+      pivot: {x: 0.5, y: 0.483151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -30.010391}
+        - {x: -32, y: -30.010391}
+        - {x: -32, y: -17.01039}
+        - {x: -13, y: 22.98961}
+        - {x: -11, y: 27.989613}
+        - {x: -8, y: 29.98961}
+        - {x: 13, y: 29.98961}
+        - {x: 32, y: 2.9896107}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CategorieIcons_Basics
+      rect:
+        serializedVersion: 2
+        x: 66.02675
+        y: 4.026751
+        width: 57.946495
+        height: 57.897125
+      alignment: 9
+      pivot: {x: 0.5172574, y: 0.4831544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.0000057, y: -28.975313}
+        - {x: -22.999994, y: -8.975313}
+        - {x: -28.999992, y: 1.0246868}
+        - {x: -28.999992, y: 16.024687}
+        - {x: -16.999994, y: 29.024685}
+        - {x: 3.0000057, y: 29.024685}
+        - {x: 29.000006, y: -3.9753132}
+        - {x: 29.000006, y: -25.975313}
+        - {x: 21.000006, y: -28.975313}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CategorieIcons_Tools
+      rect:
+        serializedVersion: 2
+        x: 129.02675
+        y: 3.0761204
+        width: 61.936962
+        height: 57.847755
+      alignment: 9
+      pivot: {x: 0.500077, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.00477, y: -28.999998}
+        - {x: -18.99523, y: -28.999998}
+        - {x: -30.99523, y: -5.999996}
+        - {x: -30.99523, y: 22.000004}
+        - {x: -27.99523, y: 29.000006}
+        - {x: 31.00477, y: 29.000006}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CategoryIcons_Decorations
+      rect:
+        serializedVersion: 2
+        x: 198.07613
+        y: 0
+        width: 50.847755
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5098332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.499996, y: -32}
+        - {x: -25.500004, y: -32}
+        - {x: -25.500004, y: 29.999998}
+        - {x: -23.500004, y: 32}
+        - {x: 25.499996, y: 32}
+        - {x: 25.499996, y: -29.000002}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

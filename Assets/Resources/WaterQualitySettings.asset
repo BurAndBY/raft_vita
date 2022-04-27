@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2f370d0ed1aa642940b8fdf168a400, type: 3}
+  m_Name: WaterQualitySettings
+  m_EditorClassIdentifier:
+  qualityLevels:
+  - name: Fastest
+    maxSpectrumResolution: 32
+    allowHighPrecisionTextures: 0
+    allowHighQualitySlopeMaps: 1
+    tileSizeScale: 0.8
+    wavesMode: 0
+    allowSpray: 1
+    foamQuality: 1
+    allowVolumetricLighting: 1
+    maxTesselationFactor: 0.52
+    maxVertexCount: 90000
+    maxTesselatedVertexCount: 10000
+    allowAlphaBlending: 1
+    allowHighQualityReflections: 0
+  - name: Fast
+    maxSpectrumResolution: 64
+    allowHighPrecisionTextures: 0
+    allowHighQualitySlopeMaps: 1
+    tileSizeScale: 0.8
+    wavesMode: 0
+    allowSpray: 1
+    foamQuality: 1
+    allowVolumetricLighting: 1
+    maxTesselationFactor: 0.52
+    maxVertexCount: 100000
+    maxTesselatedVertexCount: 40000
+    allowAlphaBlending: 1
+    allowHighQualityReflections: 0
+  - name: Simple
+    maxSpectrumResolution: 128
+    allowHighPrecisionTextures: 0
+    allowHighQualitySlopeMaps: 0
+    tileSizeScale: 0.8
+    wavesMode: 0
+    allowSpray: 1
+    foamQuality: 1
+    allowVolumetricLighting: 1
+    maxTesselationFactor: 0.52
+    maxVertexCount: 150000
+    maxTesselatedVertexCount: 80000
+    allowAlphaBlending: 1
+    allowHighQualityReflections: 0
+  - name: Good
+    maxSpectrumResolution: 128
+    allowHighPrecisionTextures: 0
+    allowHighQualitySlopeMaps: 0
+    tileSizeScale: 0.8
+    wavesMode: 0
+    allowSpray: 1
+    foamQuality: 1
+    allowVolumetricLighting: 1
+    maxTesselationFactor: 0.74
+    maxVertexCount: 240000
+    maxTesselatedVertexCount: 85000
+    allowAlphaBlending: 1
+    allowHighQualityReflections: 0
+  - name: Beautiful
+    maxSpectrumResolution: 256
+    allowHighPrecisionTextures: 0
+    allowHighQualitySlopeMaps: 0
+    tileSizeScale: 1
+    wavesMode: 0
+    allowSpray: 1
+    foamQuality: 1
+    allowVolumetricLighting: 1
+    maxTesselationFactor: 0.8
+    maxVertexCount: 330000
+    maxTesselatedVertexCount: 90000
+    allowAlphaBlending: 1
+    allowHighQualityReflections: 0
+  - name: Fantastic
+    maxSpectrumResolution: 256
+    allowHighPrecisionTextures: 0
+    allowHighQualitySlopeMaps: 1
+    tileSizeScale: 1
+    wavesMode: 0
+    allowSpray: 1
+    foamQuality: 1
+    allowVolumetricLighting: 1
+    maxTesselationFactor: 1
+    maxVertexCount: 500000
+    maxTesselatedVertexCount: 120000
+    allowAlphaBlending: 1
+    allowHighQualityReflections: 1
+  synchronizeWithUnity: 1
+  savedCustomQualityLevel: 5

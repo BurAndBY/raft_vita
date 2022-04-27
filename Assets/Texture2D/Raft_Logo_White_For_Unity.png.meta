@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 44deb3d68d1d98c4f881ce0c2104c6d4
+timeCreated: 1649264563
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Raft_Logo_White_For_Unity
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 373
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: PSP2
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Raft_Logo_White_For_Unity
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17.02675
+        width: 373
+        height: 304.90594
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50170636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 186.5, y: 26.520279}
+        - {x: -186.5, y: 26.520279}
+        - {x: -186.5, y: 35.52028}
+        - {x: -161.5, y: 72.52028}
+        - {x: -93.5, y: 136.52028}
+        - {x: -16.5, y: 152.52028}
+        - {x: 107.50001, y: 152.52028}
+        - {x: 186.5, y: 63.52028}
+      - - {x: 98.5, y: -145.47972}
+        - {x: 83.5, y: -142.47972}
+        - {x: 83.5, y: 21.520279}
+        - {x: 168.5, y: 21.520279}
+        - {x: 168.5, y: -21.479721}
+        - {x: 150.5, y: -101.47972}
+        - {x: 145.5, y: -101.47972}
+        - {x: 140.5, y: -136.47972}
+        - {x: 130.5, y: -145.47972}
+      - - {x: -125.5, y: -99.47972}
+        - {x: -124.5, y: -130.47972}
+        - {x: -135.5, y: -142.47972}
+        - {x: -140.5, y: -145.47972}
+        - {x: -150.5, y: -145.47972}
+        - {x: -164.5, y: -125.47972}
+        - {x: -168.5, y: -118.47973}
+        - {x: -168.5, y: 16.520279}
+        - {x: -166.5, y: 17.520279}
+        - {x: -85.5, y: 17.520279}
+        - {x: -84.5, y: 16.520279}
+        - {x: -81.5, y: -12.479721}
+        - {x: -81.5, y: -59.479725}
+        - {x: -87.5, y: -96.47972}
+        - {x: -83.5, y: -103.47972}
+        - {x: -81.5, y: -135.47972}
+        - {x: -81.5, y: -138.47972}
+        - {x: -93.5, y: -145.47972}
+        - {x: -111.5, y: -145.47972}
+        - {x: -123.5, y: -134.47972}
+      - - {x: -71.5, y: -130.47972}
+        - {x: -77.5, y: -126.47972}
+        - {x: -77.5, y: -81.47972}
+        - {x: -60.5, y: 16.520279}
+        - {x: -11.5, y: 16.520279}
+        - {x: 6.5, y: -88.47972}
+        - {x: 6.5, y: 14.520279}
+        - {x: 7.5000005, y: 18.520279}
+        - {x: 80.5, y: 18.520279}
+        - {x: 81.5, y: 16.520279}
+        - {x: 81.5, y: -117.47971}
+        - {x: 44.5, y: -147.47972}
+        - {x: 14.5, y: -147.47972}
+        - {x: 9.5, y: -134.47972}
+        - {x: 9.5, y: -137.47972}
+        - {x: 5.5, y: -137.47972}
+        - {x: 9.5, y: -141.47972}
+        - {x: 9.5, y: -152.47972}
+        - {x: -73.5, y: -152.47972}
+        - {x: -75.5, y: -151.47972}
+        - {x: -75.5, y: -133.47972}
+        - {x: -69.5, y: -132.47972}
+        - {x: -67.5, y: -132.47972}
+        - {x: -64.5, y: -133.47972}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

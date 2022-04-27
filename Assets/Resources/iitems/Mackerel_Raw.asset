@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b608c4745e611644da69fba070632a11, type: 3}
+  m_Name: Mackerel_Raw
+  m_EditorClassIdentifier:
+  setAnimationIdle: 1
+  index: 13
+  prefab: {fileID: 0}
+  sprite: {fileID: 21300022, guid: 6366d9f63d8862543a292606afaf6ed5, type: 3}
+  stackSize: 10
+  displayName: Raw mackerel
+  displayDescription: 'Raw but still edible
+
+	Contains more protein if cooked'
+  useButtonName: LeftClick
+  hungerYield: 5
+  thirstYield: 0
+  healthYield: 0
+  useCooldown: 0.1
+  cooktime: 45
+  result: {fileID: 11400000, guid: 4927258b551ec1b49ae340bf9164c90b, type: 2}

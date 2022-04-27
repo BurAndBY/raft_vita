@@ -1,0 +1,23 @@
+public enum BlockType
+{
+	None,
+	Foundation,
+	Pillar,
+	Floor,
+	Ramp,
+	Net,
+	Cropplot_Tree,
+	Cropplot,
+	CookingStand_Food,
+	CookingStand_Purifier,
+	Wall,
+	Wall_Window,
+	Repair,
+	ChestSmall,
+	Chest,
+	ChestBig,
+	Lantern_Standing,
+	Table,
+	Chair,
+	ScrapMechanic
+}

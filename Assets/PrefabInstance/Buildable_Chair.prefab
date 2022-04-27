@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1327227318878044}
+  m_IsPrefabParent: 1
+--- !u!1 &1327227318878044
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4086405459791063}
+  - component: {fileID: 114440264772160079}
+  - component: {fileID: 114836259437236719}
+  - component: {fileID: 114301466251465640}
+  m_Layer: 0
+  m_Name: Buildable_Chair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4086405459791063
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1327227318878044}
+  m_LocalRotation: {x: 1.8099951E-06, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.229, y: 0.233, z: 0.76830906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4339091819603191}
+  - {fileID: 4970700458529753}
+  - {fileID: 4249811737146394}
+  - {fileID: 4415221024615157}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00020741015, y: -0, z: 0}
+--- !u!114 &114440264772160079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1327227318878044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d494628d0378e4db1b368b927e3ecb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  renderers:
+  - {fileID: 23606302452901061}
+  advancedCollisions:
+  - {fileID: 114022661154868715}
+--- !u!114 &114836259437236719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1327227318878044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bded3a60944032242b6e8ec83425715c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  requiredColliders:
+  - {fileID: 65845154529173220}
+--- !u!114 &114301466251465640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1327227318878044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f72bef14a760c64cbceb5f95d43f8f2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  blockIndex: 0
+  type: 18
+  itemIndex: 34
+  prefab: {fileID: 1327227318878044}
+  specialySaved: 0
+  showHealthOnMouseOver: 0
+  health: 100
+  maxHealth: 100
+  isRotateable: 1
+  canRotateFreely: 1
+  removeableWithAxe: 1
+  snapsToQuads: 0
+  snapsToTopCollider: 1
+  buildOffset: {x: 0, y: -0.03, z: 0}
+  buildCost: []
+  sprite: {fileID: 0}
+  displayName: Chair
+  description:
+  onoffColliders: []
+  overlappingComponent: {fileID: 0}
+  overlappChecks: []
+  requireAll: 1
+  requireHitCount: 1
+--- !u!1 &1817031914467214
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4339091819603191}
+  - component: {fileID: 33019774123264666}
+  - component: {fileID: 23606302452901061}
+  m_Layer: 0
+  m_Name: model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4339091819603191
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1817031914467214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4086405459791063}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33019774123264666
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1817031914467214}
+  m_Mesh: {fileID: 4300000, guid: 36b493b2b636b204b87d91017381ac34, type: 2}
+--- !u!23 &23606302452901061
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1817031914467214}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 15884432ecddc4543a9553cf7eb6da28, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1325650110672645
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4970700458529753}
+  - component: {fileID: 65845154529173220}
+  m_Layer: 0
+  m_Name: RequiredCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4970700458529753
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1325650110672645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4086405459791063}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!65 &65845154529173220
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1325650110672645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.16115211, z: 0.5325812}
+  m_Center: {x: 0, y: -0.09221237, z: 0.011291003}
+--- !u!1 &1264735915147929
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4249811737146394}
+  - component: {fileID: 65150927001989635}
+  - component: {fileID: 114022661154868715}
+  m_Layer: 10
+  m_Name: BlockCollider_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4249811737146394
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1264735915147929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4086405459791063}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65150927001989635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1264735915147929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35161775, y: 0.5238068, z: 0.072052136}
+  m_Center: {x: 0.0028382242, y: 0.7858745, z: -0.18967746}
+--- !u!114 &114022661154868715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1264735915147929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a57533d66531d4ea7f0c31d6108d0e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  useAsPlayerCollision: 1
+  colliders: []
+  overlappingColliders: []
+--- !u!1 &1556435257717906
+GameObject:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4415221024615157}
+  - component: {fileID: 65537124820025790}
+  - component: {fileID: 114875898244688634}
+  m_Layer: 10
+  m_Name: BlockCollider_Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4415221024615157
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1556435257717906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4086405459791063}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65537124820025790
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1556435257717906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35161775, y: 0.48472396, z: 0.47541732}
+  m_Center: {x: 0.002838254, y: 0.28034467, z: 0.014502345}
+--- !u!114 &114875898244688634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1556435257717906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a57533d66531d4ea7f0c31d6108d0e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  useAsPlayerCollision: 1
+  colliders: []
+  overlappingColliders: []

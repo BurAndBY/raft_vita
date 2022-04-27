@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0cb97fe7d919eb49bfbfdaaea608096, type: 3}
+  m_Name: Mackerel_Cooked
+  m_EditorClassIdentifier:
+  setAnimationIdle: 1
+  index: 14
+  prefab: {fileID: 0}
+  sprite: {fileID: 21300024, guid: 6366d9f63d8862543a292606afaf6ed5, type: 3}
+  stackSize: 10
+  displayName: Cooked mackerel
+  displayDescription: Contains alot of protein
+  useButtonName: LeftClick
+  hungerYield: 20
+  thirstYield: 5
+  healthYield: 10
+  useCooldown: 0.1

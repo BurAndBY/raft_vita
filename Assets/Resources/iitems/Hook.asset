@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900e54d15fa1c3643b0cfdee82216c66, type: 3}
+  m_Name: Hook
+  m_EditorClassIdentifier:
+  setAnimationIdle: 0
+  index: 3
+  prefab: {fileID: 1735472885564092, guid: 0f0a2a2f10bce0a4a9fd7658f02c81c6, type: 2}
+  sprite: {fileID: 21300006, guid: 6366d9f63d8862543a292606afaf6ed5, type: 3}
+  stackSize: 0
+  displayName: Hook
+  displayDescription: Used to gather debris from the ocean
+  useButtonName: LeftClick

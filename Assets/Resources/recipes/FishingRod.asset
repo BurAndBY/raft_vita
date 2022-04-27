@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1537060cf7f7662449d541bdb3d679bf, type: 3}
+  m_Name: FishingRod
+  m_EditorClassIdentifier:
+  craftingCategory: 0
+  cost:
+  - item: {fileID: 11400000, guid: e8425b8b46c0d34459b4739516ec24c9, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 984fde7ae9e04734c928d9d79a2e4986, type: 2}
+    amount: 2
+  itemToCraft:
+    item: {fileID: 11400000, guid: f8d6f2e16dd9f8140b59ae821667a295, type: 2}
+    amount: 1
